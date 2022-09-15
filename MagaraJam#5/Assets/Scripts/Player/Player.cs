@@ -6,8 +6,11 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField] private float walkSpeed;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Transform footPos;
 
-
+    private BoxCollider2D bc;
     private Rigidbody2D rb;
     private Animator anim;
 
@@ -17,6 +20,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        bc = GetComponent<BoxCollider2D>();
 
         
     }
@@ -28,7 +32,26 @@ public class Player : MonoBehaviour
 
         Walk();
         XScale();
+        
+
+        if (Input.GetKey(KeyCode.Space)&&IsGrounded())
+            Jump();
+
+        anim.SetBool("onAir", !IsGrounded());
+
+        Debug.Log(IsGrounded());
     }
+
+
+    private bool IsGrounded()
+    {
+        if (Physics2D.BoxCast((footPos.position), new Vector2(bc.bounds.size.x, 0.1f), 0, Vector2.down, 0.2f, groundLayer))
+            return true;
+        else
+            return false;
+
+    }
+    
 
     private void XScale()
     {
@@ -42,6 +65,11 @@ public class Player : MonoBehaviour
     {
         anim.SetBool("Walking", horizontal != 0 ? true : false);
         rb.velocity = new Vector2(horizontal * walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
+
+    }
+    private void Jump()
+    {
+        rb.velocity = new Vector2(rb.velocity.x,jumpForce * Time.fixedDeltaTime);
 
     }
 }
