@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform footPos;
 
+
     private BoxCollider2D bc;
     private Rigidbody2D rb;
     private Animator anim;
