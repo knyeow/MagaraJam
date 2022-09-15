@@ -7,13 +7,16 @@ public class Player : MonoBehaviour
 
     [SerializeField] private float walkSpeed;
 
+
     private Rigidbody2D rb;
+    private Animator anim;
 
     private float horizontal;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
         
     }
@@ -37,6 +40,7 @@ public class Player : MonoBehaviour
 
     private void Walk()
     {
+        anim.SetBool("Walking", horizontal != 0 ? true : false);
         rb.velocity = new Vector2(horizontal * walkSpeed, rb.velocity.y);
 
     }
