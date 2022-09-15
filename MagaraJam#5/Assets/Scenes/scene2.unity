@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 40245252}
   m_Layer: 0
   m_Name: Tilemap_Glass
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -925,7 +925,7 @@ GameObject:
   - component: {fileID: 1228645317}
   m_Layer: 6
   m_Name: Tilemap_Ground
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2139,6 +2139,7 @@ GameObject:
   - component: {fileID: 1807344322}
   - component: {fileID: 1807344324}
   - component: {fileID: 1807344323}
+  - component: {fileID: 1807344325}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -2216,6 +2217,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1807344325
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807344321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 3
+  m_FrequencyGain: 0
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &1980753711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2378,7 @@ GameObject:
   - component: {fileID: 2129441472}
   - component: {fileID: 2129441471}
   - component: {fileID: 2129441475}
+  - component: {fileID: 2129441476}
   m_Layer: 0
   m_Name: PlayerParent
   m_TagString: Untagged
@@ -2525,3 +2544,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   footPos: {fileID: 1160049713}
+--- !u!114 &2129441476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129441469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e992b8e435d743f4d8a061d164248764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.25
+  cam: {fileID: 406855423}

@@ -5,24 +5,36 @@ using Cinemachine;
 
 public class Shake : MonoBehaviour
 {
-    
-    public bool start = false;
+    [SerializeField]
+    private float duration;
 
+    private bool inildi = false;
+
+    [SerializeField]
     private CinemachineVirtualCamera cam;
 
     private CinemachineBasicMultiChannelPerlin noise;
 
     private void Start()
     {
-        cam = this.GetComponent<CinemachineVirtualCamera>();
+      
         noise = cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
-    private void Update()
+   
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (start)
+        if (other.gameObject.tag == "ground" && inildi == false)
         {
-            noise.m_FrequencyGain = .17f;
+            StartCoroutine(shaking());
         }
+    }
+
+    private IEnumerator shaking()
+    {
+        noise.m_FrequencyGain = 1;
+        yield return new WaitForSeconds(duration);
+        noise.m_FrequencyGain = 0;
+        inildi = true;
     }
 
 }
