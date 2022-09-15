@@ -6,12 +6,15 @@ using TMPro;
 public class BasicText : MonoBehaviour
 {
     [SerializeField] [TextArea]
-    private string text;
+    private string[] texts;
 
     private TextMeshProUGUI textMesh;
 
     [SerializeField]
     private float timeBeforeWord;
+
+    [SerializeField]
+    private float timeBeforeTexts;
     private void Start()
     {
         textMesh = this.GetComponent<TextMeshProUGUI>();
@@ -20,10 +23,19 @@ public class BasicText : MonoBehaviour
 
     private IEnumerator writeText()
     {
-        foreach (char item in text)
-        {
-            yield return new WaitForSeconds(timeBeforeWord);
-            textMesh.text += item;
+        int i = 0;
+        foreach (string text in texts)
+        { 
+            foreach (char item in texts[i])
+            {
+                yield return new WaitForSeconds(timeBeforeWord);
+                textMesh.text += item;
+            }
+            yield return new WaitForSeconds(timeBeforeTexts);
+            textMesh.text = string.Empty;
+            i++;
+            yield return new WaitForSeconds(timeBeforeTexts);
         }
+
     }
 }
