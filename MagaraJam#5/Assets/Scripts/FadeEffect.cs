@@ -18,11 +18,11 @@ public class FadeEffect : MonoBehaviour
         Invoke("loadOtherScene", afterStartFadeTime + 7);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (fadePass)
         {
-            image.color += new Color(0, 0, 0, .001f);
+            image.color += new Color(0, 0, 0, .005f);
         }
     }
 
