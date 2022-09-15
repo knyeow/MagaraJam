@@ -526,5 +526,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f264a98d51158488294708e93bf14d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "Papatya, menekse, kas\u0131mpat\u0131..."
+  text: Papatya, menekse, kasimpati...
   timeBeforeWord: 0.1
