@@ -30,6 +30,7 @@ public class BasicText : MonoBehaviour
             {
                 yield return new WaitForSeconds(timeBeforeWord);
                 textMesh.text += item;
+                SoundManager.Instance.playWordEffect();
             }
             yield return new WaitForSeconds(timeBeforeTexts);
             textMesh.text = string.Empty;
