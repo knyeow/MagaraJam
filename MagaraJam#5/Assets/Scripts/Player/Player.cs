@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
     private void Walk()
     {
         anim.SetBool("Walking", horizontal != 0 ? true : false);
-        rb.velocity = new Vector2(horizontal * walkSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontal * walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
 
     }
 }
