@@ -15,6 +15,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip glassBreakEffect;
 
+    [SerializeField]
+    private AudioClip cardPickEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -37,6 +40,11 @@ public class SoundManager : MonoBehaviour
     public void playGlassBreak()
     {
         audioSource.PlayOneShot(glassBreakEffect);
+    }
+
+    public void playCardPick()
+    {
+        audioSource.PlayOneShot(cardPickEffect);
     }
 }
 
