@@ -7,6 +7,7 @@ public class Laser : MonoBehaviour
     [SerializeField] private float laserPower;
     [SerializeField] private Transform laserPoint;
     [SerializeField] private TrailRenderer tr;
+    [SerializeField] private Animator anim;
     private Rigidbody2D rb;
 
     private float lifeTimeTimer=3;
@@ -59,6 +60,7 @@ public class Laser : MonoBehaviour
         Animator anim = collision.transform.parent.GetChild(2).GetComponent<Animator>();
         SpriteRenderer sr = collision.transform.parent.GetChild(2).GetComponent<SpriteRenderer>();
         Enemy enemy = collision.transform.parent.GetChild(1).GetComponent<Enemy>();
+        collision.GetComponent<Animator>().SetTrigger("Death");
         sr.enabled = true;
         enemy.enabled = false;
         anim.SetTrigger("Splash");
