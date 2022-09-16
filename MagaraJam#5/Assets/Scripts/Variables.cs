@@ -4,5 +4,6 @@ using UnityEngine;
 
 public static class Variables
 {
-   public static bool moveable = false;
+    public static bool moveable = false;
+    public static bool scene2Trigger = false;
 }
