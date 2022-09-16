@@ -9,6 +9,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip wordEffect;
 
+    [SerializeField]
+    private AudioClip fallEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -21,6 +24,11 @@ public class SoundManager : MonoBehaviour
     public void playWordEffect()
     {
         audioSource.PlayOneShot(wordEffect);
+    }
+
+    public void playFallDownEffect()
+    {
+        audioSource.PlayOneShot(fallEffect);
     }
 }
 

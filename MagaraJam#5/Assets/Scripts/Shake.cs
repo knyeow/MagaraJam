@@ -31,6 +31,7 @@ public class Shake : MonoBehaviour
 
     private IEnumerator shaking()
     {
+        SoundManager.Instance.playFallDownEffect();
         noise.m_FrequencyGain = 1;
         yield return new WaitForSeconds(duration);
         noise.m_FrequencyGain = 0;

@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wordEffect: {fileID: 8300000, guid: 9b8195ff24a07bc499a3e665b0907d61, type: 3}
+  fallEffect: {fileID: 8300000, guid: a0c3b6d35bdcfea4d8ca033ad70ea5fc, type: 3}
 --- !u!4 &86701621
 Transform:
   m_ObjectHideFlags: 0
