@@ -6,6 +6,8 @@ public class Projectile : MonoBehaviour
 {
 
     [SerializeField] private float bulletSpeed;
+    [SerializeField] private Animator anim;
+    [SerializeField] private ParticleSystem ps;
 
     private float direction;
 
@@ -34,7 +36,16 @@ public class Projectile : MonoBehaviour
         if (collision.CompareTag("Player")) {
 
             Debug.Log("Playera vurdu");
+
+            if (!Variables.IsPlayerDead)
+            {
+                anim.SetTrigger("Death");
+                ps.Play();
+            }
+
             Variables.IsPlayerDead = true;
+
+            
                 }
     }
 

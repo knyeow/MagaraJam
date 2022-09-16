@@ -17,28 +17,36 @@ public class DeathAnim : MonoBehaviour
 
     [SerializeField]
     private SpriteRenderer sr;
+
+    
     private void Start()
     {
         cam = Camera.main;
+       
     }
 
     private void Update()
     {
         if (Variables.IsPlayerDead)
         {
-            Variables.IsPlayerDead = false;
             StartCoroutine(FlashEffect());
         }
+
     }
 
     private IEnumerator FlashEffect()
     {
+        
         cam.cullingMask = LayerMask.GetMask("Player", "white");
         sr.enabled = true;
         yield return new WaitForSeconds(flashTimeDuration);
         sr.color = Color.black;
         yield return new WaitForSeconds(StartSceneAgainTime);
+        Variables.IsPlayerDead = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
+
+
 
 }

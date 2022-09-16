@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
 
         anim.SetBool("onAir", !IsGrounded());
 
-        
+      
     }
 
 
