@@ -61,6 +61,8 @@ public class Laser : MonoBehaviour
         SpriteRenderer sr = collision.transform.parent.GetChild(2).GetComponent<SpriteRenderer>();
         Enemy enemy = collision.transform.parent.GetChild(1).GetComponent<Enemy>();
         collision.GetComponent<Animator>().SetTrigger("Death");
+        collision.GetComponent<BoxCollider2D>().enabled = false;
+        collision.GetComponent<Rigidbody2D>().gravityScale = 0;
         sr.enabled = true;
         enemy.enabled = false;
         anim.SetTrigger("Splash");
