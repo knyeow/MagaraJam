@@ -22,7 +22,7 @@ public class Projectile : MonoBehaviour
     {
         rb.velocity = new Vector2(bulletSpeed * Time.deltaTime * direction, 0);
 
-        if (lifeTimeTimer > 2)
+        if (lifeTimeTimer >= 3f)
             DeActive();
 
         lifeTimeTimer += Time.deltaTime;
@@ -31,13 +31,16 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        DeActive();
+        if (collision.CompareTag("Player")) {
+
+            Debug.Log("Playera vurdu");    
+                }
     }
 
     public void setDirection(float  _direction)
     {
         gameObject.SetActive(true);
-
+        lifeTimeTimer = 0;
         direction = _direction;
         
     }

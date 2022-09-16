@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        Physics2D.IgnoreLayerCollision(7, 8);
         horizontal = Input.GetAxis("Horizontal");
 
         if (Variables.moveable)
@@ -52,7 +53,7 @@ public class Player : MonoBehaviour
 
         anim.SetBool("onAir", !IsGrounded());
 
-        Debug.Log(IsGrounded());
+        
     }
 
 
