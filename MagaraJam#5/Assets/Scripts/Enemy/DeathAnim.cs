@@ -36,14 +36,14 @@ public class DeathAnim : MonoBehaviour
 
     private IEnumerator FlashEffect()
     {
-        
+        Variables.moveable = false;
         cam.cullingMask = LayerMask.GetMask("Player", "white");
         sr.enabled = true;
         yield return new WaitForSeconds(flashTimeDuration);
         sr.color = Color.black;
         yield return new WaitForSeconds(StartSceneAgainTime);
         Variables.IsPlayerDead = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 
