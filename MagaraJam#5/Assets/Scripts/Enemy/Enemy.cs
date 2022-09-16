@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
             scaleTimer = 0;
         
 
-        anim.SetBool("Walking", rb.velocity.x > 0.1f ? true : false);
+        anim.SetBool("Walking", Mathf.Abs(rb.velocity.x) > 0.1f ? true : false);
     }  
 
     private void followPlayer()
