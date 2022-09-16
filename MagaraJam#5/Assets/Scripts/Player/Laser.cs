@@ -46,6 +46,8 @@ public class Laser : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            rb.velocity = Vector2.zero;
+            transform.position = laserPoint.position;
             EnemyDeathEvents(collision);
         }
             
