@@ -45,6 +45,21 @@ public class Laser : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
-            Debug.Log("Dusmana vuruldu");
+        {
+            EnemyDeathEvents(collision);
+        }
+            
+    }
+
+    private void EnemyDeathEvents(Collider2D collision)
+    {
+
+        Animator anim = collision.transform.parent.GetChild(2).GetComponent<Animator>();
+        SpriteRenderer sr = collision.transform.parent.GetChild(2).GetComponent<SpriteRenderer>();
+        Enemy enemy = collision.transform.parent.GetChild(1).GetComponent<Enemy>();
+        sr.enabled = true;
+        enemy.enabled = false;
+        anim.SetTrigger("Splash");
+        Destroy(collision.transform.parent.gameObject, 4);
     }
 }
