@@ -198,8 +198,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -783,8 +783,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -1039,8 +1039,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -1295,8 +1295,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -1551,8 +1551,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -2114,8 +2114,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -2370,8 +2370,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -2626,8 +2626,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -2822,7 +2822,7 @@ GameObject:
   - component: {fileID: 291184554}
   m_Layer: 8
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2977,8 +2977,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291184553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.9, y: 9.015, z: 35.193657}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 30.42, y: 9.62, z: 35.193657}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 971925109}
@@ -3132,8 +3132,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -3388,8 +3388,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -3644,8 +3644,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -3944,8 +3944,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -4200,8 +4200,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -4456,8 +4456,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -4827,8 +4827,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -5083,8 +5083,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -5339,8 +5339,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -5595,8 +5595,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -6088,8 +6088,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -6344,8 +6344,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -6600,8 +6600,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -6940,8 +6940,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -7196,8 +7196,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -7583,8 +7583,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -29496,8 +29496,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -29752,8 +29752,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -30008,8 +30008,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -30264,8 +30264,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -45938,8 +45938,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -46296,8 +46296,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -46640,7 +46640,7 @@ TrailRenderer:
   m_SortingLayerID: 348866353
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Time: 2
+  m_Time: 0.1
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -46649,7 +46649,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.12578636
+        value: 0.08731896
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -46875,8 +46875,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -47131,8 +47131,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -47387,8 +47387,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -47643,8 +47643,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -47899,8 +47899,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -48155,8 +48155,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -48411,8 +48411,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -48667,8 +48667,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -48923,8 +48923,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -49179,8 +49179,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -49522,8 +49522,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -49778,8 +49778,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -50118,8 +50118,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -50374,8 +50374,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -50630,8 +50630,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -51121,8 +51121,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -51453,8 +51453,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -51854,8 +51854,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -52110,8 +52110,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -52465,8 +52465,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -52889,8 +52889,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -53229,8 +53229,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -53561,8 +53561,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -53817,8 +53817,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -54157,8 +54157,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
@@ -54519,8 +54519,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453425065
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Time: 0.05
   m_Parameters:
