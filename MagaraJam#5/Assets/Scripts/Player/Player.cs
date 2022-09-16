@@ -30,12 +30,15 @@ public class Player : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
 
-
-        Walk();
+        if (Variables.moveable)
+        {
+            Walk();
+        }
+        
         XScale();
         
 
-        if (Input.GetKey(KeyCode.Space)&&IsGrounded())
+        if (Input.GetKey(KeyCode.Space)&&IsGrounded() && Variables.moveable)
             Jump();
 
         anim.SetBool("onAir", !IsGrounded());
@@ -57,7 +60,7 @@ public class Player : MonoBehaviour
     private void XScale()
     {
 
-        if (horizontal != 0)
+        if (horizontal != 0 && Variables.moveable)
             transform.localScale = new Vector2(Mathf.Sign(horizontal) * Mathf.Abs(transform.localScale.x), transform.localScale.y);
 
     }

@@ -16,8 +16,7 @@ public class Shake : MonoBehaviour
     private CinemachineBasicMultiChannelPerlin noise;
 
     private void Start()
-    {
-      
+    { 
         noise = cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
    
@@ -26,6 +25,7 @@ public class Shake : MonoBehaviour
         if (other.gameObject.tag == "ground" && inildi == false)
         {
             StartCoroutine(shaking());
+            Invoke("movePass", 6);
         }
     }
 
@@ -35,6 +35,11 @@ public class Shake : MonoBehaviour
         yield return new WaitForSeconds(duration);
         noise.m_FrequencyGain = 0;
         inildi = true;
+    }
+
+    private void movePass()
+    {
+        Variables.moveable = true;
     }
 
 }

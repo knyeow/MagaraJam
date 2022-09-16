@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-public class BasicText : MonoBehaviour
+
+public class BasicText2 : MonoBehaviour
 {
-    [SerializeField] [TextArea]
+    [SerializeField]
+    [TextArea]
     private string[] texts;
 
-    private TextMeshProUGUI textMesh;
+    private TextMeshPro textMesh;
 
     [SerializeField]
     private float timeBeforeWord;
@@ -16,18 +17,22 @@ public class BasicText : MonoBehaviour
     [SerializeField]
     private float timeBeforeTexts;
 
+    [SerializeField]
+    private float startDuration;
+
     private void Start()
     {
-        textMesh = this.GetComponent<TextMeshProUGUI>();
+        textMesh = this.GetComponent<TextMeshPro>();
         StartCoroutine(writeText());
     }
 
     private IEnumerator writeText()
     {
-        
+
         int i = 0;
         foreach (string text in texts)
-        { 
+        {
+            yield return new WaitForSeconds(startDuration);
             foreach (char item in texts[i])
             {
                 yield return new WaitForSeconds(timeBeforeWord);
@@ -41,4 +46,5 @@ public class BasicText : MonoBehaviour
         }
 
     }
+
 }
