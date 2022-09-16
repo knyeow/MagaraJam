@@ -18,6 +18,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip cardPickEffect;
 
+    [SerializeField]
+    private AudioClip doorOpenEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -45,6 +48,11 @@ public class SoundManager : MonoBehaviour
     public void playCardPick()
     {
         audioSource.PlayOneShot(cardPickEffect);
+    }
+
+    public void PlayDoorOpen()
+    {
+        audioSource.PlayOneShot(doorOpenEffect);
     }
 }
 

@@ -21,6 +21,7 @@ public class Door : MonoBehaviour
     {
         if (collision.tag == "Player" && killToOpenDoor == key.geKillCount() && key.getIsKeyPickedUp())
         {
+            SoundManager.Instance.PlayDoorOpen();
             anim.SetTrigger("open");
             startFadeEffect();
             Invoke("loadNextScene", 2);

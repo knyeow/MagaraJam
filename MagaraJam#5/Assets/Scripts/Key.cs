@@ -14,10 +14,13 @@ public class Key : MonoBehaviour
 
     private Image cardImage;
 
+    private BoxCollider2D collider;
+
     private void Start()
     {
         sr = this.GetComponent<SpriteRenderer>();
         cardImage = GameObject.Find("card").GetComponent<Image>();
+        collider = this.GetComponent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,6 +28,7 @@ public class Key : MonoBehaviour
         if (collision.tag == "Player")
         {
             SoundManager.Instance.playCardPick();
+            collider.enabled = false;
             isKeyPickedUp = true;
             sr.enabled = false;
             cardImage.enabled = true;
