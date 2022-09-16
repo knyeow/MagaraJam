@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     private BoxCollider2D bc;
     private Rigidbody2D rb;
     private Animator anim;
+    private AudioSource audioSource;
 
     private float horizontal;
 
@@ -22,8 +23,16 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         bc = GetComponent<BoxCollider2D>();
-
+        audioSource = GetComponent<AudioSource>();
         
+    }
+
+    private void Update()
+    {
+        if (IsGrounded() && rb.velocity.x != 0 && !audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
     }
 
     void FixedUpdate()
