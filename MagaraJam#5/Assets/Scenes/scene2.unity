@@ -1017,12 +1017,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408586444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.04, y: -3.11, z: -12.111476}
+  m_LocalPosition: {x: -0.6500001, y: -0.9699998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1728100637}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &408586446
 MonoBehaviour:
@@ -2430,12 +2430,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728349041}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.84, y: -3.11, z: -12.111476}
+  m_LocalPosition: {x: -6.5299997, y: -0.9699998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1728100637}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &728349043
 MonoBehaviour:
@@ -3578,7 +3578,7 @@ Transform:
   - {fileID: 950599473}
   - {fileID: 745456924}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1162012214
 BoxCollider2D:
@@ -11871,7 +11871,7 @@ Transform:
   - {fileID: 1502056872}
   - {fileID: 1395405373}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620146232
 GameObject:
@@ -12253,6 +12253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1728100637}
   - component: {fileID: 1728100636}
+  - component: {fileID: 1728100638}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -12325,11 +12326,23 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 431267592}
-  - {fileID: 728349042}
-  - {fileID: 408586445}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1728100638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728100635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361f5de901ddc8743b51dd44bf2cd51c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxEffectMultiplier: 1
+  parallaxEffectMultiplierY: 0
 --- !u!1 &1807344321
 GameObject:
   m_ObjectHideFlags: 3
