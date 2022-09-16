@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Rendering.Universal;
 public class Key : MonoBehaviour
 {
     [System.NonSerialized]
@@ -15,6 +16,8 @@ public class Key : MonoBehaviour
     private Image cardImage;
 
     private BoxCollider2D collider;
+
+    [SerializeField] private GameObject headLight;
 
     private void Start()
     {
@@ -32,6 +35,9 @@ public class Key : MonoBehaviour
             isKeyPickedUp = true;
             sr.enabled = false;
             cardImage.enabled = true;
+
+            headLight.GetComponent<SpriteRenderer>().color = Color.green;
+            headLight.GetComponent<Light2D>().color = Color.green;
         }
     }
 
