@@ -12,6 +12,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip fallEffect;
 
+    [SerializeField]
+    private AudioClip glassBreakEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -29,6 +32,11 @@ public class SoundManager : MonoBehaviour
     public void playFallDownEffect()
     {
         audioSource.PlayOneShot(fallEffect);
+    }
+
+    public void playGlassBreak()
+    {
+        audioSource.PlayOneShot(glassBreakEffect);
     }
 }
 

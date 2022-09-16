@@ -11,8 +11,9 @@ public class GlassDestroy : MonoBehaviour
     {
         if (collision.gameObject.tag == "laser")
         {
+            SoundManager.Instance.playGlassBreak();
             ps.Play();
-            Destroy(this.gameObject,.25f);
+            Destroy(this.gameObject,.1f);
         }
     }
 }
