@@ -33,7 +33,8 @@ public class Projectile : MonoBehaviour
     {
         if (collision.CompareTag("Player")) {
 
-            Debug.Log("Playera vurdu");    
+            Debug.Log("Playera vurdu");
+            Variables.IsPlayerDead = true;
                 }
     }
 
