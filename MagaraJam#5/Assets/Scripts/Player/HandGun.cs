@@ -18,7 +18,7 @@ public class HandGun : MonoBehaviour
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 
-    void Update()
+    private void FixedUpdate()
     {      
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
 
