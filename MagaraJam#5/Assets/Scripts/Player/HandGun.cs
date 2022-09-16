@@ -38,7 +38,7 @@ public class HandGun : MonoBehaviour
 
 
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)&& Variables.moveable)
             laser.GetComponent<Laser>().setDirection(new Vector2(rotation.x, rotation.y));
 
         
