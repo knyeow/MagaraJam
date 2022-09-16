@@ -26,6 +26,8 @@ public class HandGun : MonoBehaviour
 
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
+
+        if(Variables.moveable)
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
         if (parentTransform.localScale.x < transform.localScale.x)
