@@ -19,7 +19,7 @@ public class Laser : MonoBehaviour
 
     void Update()
     {
-        if (lifeTimeTimer > 3)
+        if (lifeTimeTimer > 2.0)
         {
             tr.enabled = false;
             tr.Clear();
@@ -33,7 +33,7 @@ public class Laser : MonoBehaviour
    
     public void setDirection(Vector2 direction)
     {
-        if (lifeTimeTimer > 3.5)
+        if (lifeTimeTimer > 2.0)
         { 
             lifeTimeTimer = 0;
             tr.enabled = true;
@@ -44,6 +44,7 @@ public class Laser : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        rb.velocity = Vector2.zero;
+        if (collision.CompareTag("Enemy"))
+            Debug.Log("Dusmana vuruldu");
     }
 }
