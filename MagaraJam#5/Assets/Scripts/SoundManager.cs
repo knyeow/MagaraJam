@@ -33,6 +33,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip alertEffect;
 
+    [SerializeField]
+    private AudioClip explosionEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -85,6 +88,11 @@ public class SoundManager : MonoBehaviour
     public void PlayAlertEffect()
     {
         audioSource.PlayOneShot(alertEffect,.1f);
+    }
+
+    public void PlayExplosionEffect()
+    {
+        audioSource.PlayOneShot(explosionEffect,.5f);
     }
 }
 
