@@ -751,6 +751,9 @@ MonoBehaviour:
   cardPickEffect: {fileID: 8300000, guid: 8667bcb16729925478ffec89c265896c, type: 3}
   doorOpenEffect: {fileID: 8300000, guid: bf046b2f4ae334a479e0194dc96a11ec, type: 3}
   laserShotEffect: {fileID: 8300000, guid: 87b951450b1b13a43b5b186dff566e26, type: 3}
+  enemyDeathEffect: {fileID: 8300000, guid: ea08cdd585e903549bb0f938df4e30b9, type: 3}
+  enemyShotEffect: {fileID: 8300000, guid: daa9cb2e7adad1f4c90dd5423f0613bc, type: 3}
+  alertEffect: {fileID: 0}
 --- !u!4 &66761639
 Transform:
   m_ObjectHideFlags: 0
@@ -3651,8 +3654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbb20c319724c94baea28f73ef347cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killToOpenDoor: 0
-  keyToOpenDoor: 0
+  killToOpenDoor: 3
   key: {fileID: 1846183965}
 --- !u!61 &888457356
 BoxCollider2D:
@@ -61469,6 +61471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1247103637392184335, guid: 5e6650b40adfd21428465809f8163004, type: 3}
+      propertyPath: key
+      value: 
+      objectReference: {fileID: 1846183965}
     - target: {fileID: 1247103637392184335, guid: 5e6650b40adfd21428465809f8163004, type: 3}
       propertyPath: anim
       value: 

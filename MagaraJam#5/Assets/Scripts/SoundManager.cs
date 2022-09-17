@@ -24,13 +24,22 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip laserShotEffect;
 
+    [SerializeField]
+    private AudioClip enemyDeathEffect;
+
+    [SerializeField]
+    private AudioClip enemyShotEffect;
+
+    [SerializeField]
+    private AudioClip alertEffect;
+
     public static SoundManager Instance;
      
     private void Start()
     {
         audioSource = this.GetComponent<AudioSource>();
         Instance = this;
-        DontDestroyOnLoad(this);
+        //DontDestroyOnLoad(this);
     }
 
     public void playWordEffect()
@@ -61,6 +70,21 @@ public class SoundManager : MonoBehaviour
     public void PlayLaserShootEffect()
     {
         audioSource.PlayOneShot(laserShotEffect,0.1f);
+    }
+
+    public void PlayEnemyDeathEffect()
+    {
+        audioSource.PlayOneShot(enemyDeathEffect, 0.5f);
+    }
+
+    public void PlayEnemyShotEffect()
+    {
+        audioSource.PlayOneShot(enemyShotEffect,.1f);
+    }
+
+    public void PlayAlertEffect()
+    {
+        audioSource.PlayOneShot(alertEffect,.1f);
     }
 }
 

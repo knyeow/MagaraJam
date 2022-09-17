@@ -51,6 +51,7 @@ public class Projectile : MonoBehaviour
 
     public void setDirection(float  _direction)
     {
+        SoundManager.Instance.PlayEnemyShotEffect();
         gameObject.SetActive(true);
         lifeTimeTimer = 0;
         direction = _direction;

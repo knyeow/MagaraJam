@@ -7,6 +7,7 @@ public class Laser : MonoBehaviour
     [SerializeField] private float laserPower;
     [SerializeField] private Transform laserPoint;
     [SerializeField] private GameObject laserBar;
+    [SerializeField] private Key key;
     private TrailRenderer tr;
     
     private Rigidbody2D rb;
@@ -37,7 +38,8 @@ public class Laser : MonoBehaviour
     public void setDirection(Vector2 direction)
     {
         if (lifeTimeTimer > 2.0)
-        { 
+        {
+            SoundManager.Instance.PlayLaserShootEffect();
             laserBar.SetActive(false);
             lifeTimeTimer = 0;
             tr.enabled = true;
@@ -50,6 +52,10 @@ public class Laser : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            
+            key.AddKillCount();
+            Debug.Log(key.getKillCount());
+            SoundManager.Instance.PlayEnemyDeathEffect();
             rb.velocity = Vector2.zero;
             transform.position = laserPoint.position;
             EnemyDeathEvents(collision);

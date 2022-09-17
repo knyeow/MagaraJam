@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class Door : MonoBehaviour
 {
     public int killToOpenDoor;
-    public int keyToOpenDoor;
+    
     [SerializeField]
     Key key;
     private Animator anim;
@@ -19,7 +19,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && killToOpenDoor == key.geKillCount() && key.getIsKeyPickedUp())
+        if (collision.tag == "Player" && killToOpenDoor == key.getKillCount() && key.getIsKeyPickedUp())
         {
             SoundManager.Instance.PlayDoorOpen();
             anim.SetTrigger("open");

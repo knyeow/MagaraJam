@@ -26,6 +26,7 @@ public class scene6Script : MonoBehaviour
     private IEnumerator redEffect()
     {
         yield return new WaitForSeconds(RedEffectStartTime);
+        SoundManager.Instance.PlayAlertEffect();
         red.SetActive(true);
         yield return new WaitForSeconds(.1f);
         red.SetActive(false);

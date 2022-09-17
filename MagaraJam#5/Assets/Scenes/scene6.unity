@@ -3288,6 +3288,9 @@ MonoBehaviour:
   cardPickEffect: {fileID: 0}
   doorOpenEffect: {fileID: 0}
   laserShotEffect: {fileID: 0}
+  enemyDeathEffect: {fileID: 0}
+  enemyShotEffect: {fileID: 0}
+  alertEffect: {fileID: 8300000, guid: d8f1224ff791fda4f96eeab539358195, type: 3}
 --- !u!4 &982994133
 Transform:
   m_ObjectHideFlags: 0

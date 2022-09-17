@@ -46,7 +46,7 @@ public class Key : MonoBehaviour
         killCount++;
     }
 
-    public int geKillCount()
+    public int getKillCount()
     {
         return killCount;
     }
