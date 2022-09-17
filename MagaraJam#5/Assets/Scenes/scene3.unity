@@ -754,6 +754,7 @@ MonoBehaviour:
   enemyDeathEffect: {fileID: 8300000, guid: ea08cdd585e903549bb0f938df4e30b9, type: 3}
   enemyShotEffect: {fileID: 8300000, guid: daa9cb2e7adad1f4c90dd5423f0613bc, type: 3}
   alertEffect: {fileID: 0}
+  explosionEffect: {fileID: 0}
 --- !u!4 &66761639
 Transform:
   m_ObjectHideFlags: 0
@@ -59467,11 +59468,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009489383261722133, guid: c9239ec30701c1c4ab20b2fe7a082ee1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 43.71
+      value: 19.89
       objectReference: {fileID: 0}
     - target: {fileID: 7009489383261722133, guid: c9239ec30701c1c4ab20b2fe7a082ee1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.09
+      value: 12.01
       objectReference: {fileID: 0}
     - target: {fileID: 7009489383261722133, guid: c9239ec30701c1c4ab20b2fe7a082ee1, type: 3}
       propertyPath: m_LocalPosition.z
