@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if(IsPlayerNear()&&shootTimer>=1f)
+        if(IsPlayerNear()&&shootTimer>=1f && !Variables.IsPlayerDead)
         Shooting();
 
         if (IsPlayerNear() && !IsPlayerClose())
