@@ -6,8 +6,8 @@ public class Laser : MonoBehaviour
 {
     [SerializeField] private float laserPower;
     [SerializeField] private Transform laserPoint;
-    [SerializeField] private TrailRenderer tr;
-    [SerializeField] private Animator anim;
+    private TrailRenderer tr;
+    
     private Rigidbody2D rb;
 
     private float lifeTimeTimer=3;
