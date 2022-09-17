@@ -61479,6 +61479,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 161557284}
+    - target: {fileID: 1247103637493903662, guid: 5e6650b40adfd21428465809f8163004, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.393
+      objectReference: {fileID: 0}
     - target: {fileID: 2163640150656319703, guid: 5e6650b40adfd21428465809f8163004, type: 3}
       propertyPath: m_Name
       value: PlayerParentParent

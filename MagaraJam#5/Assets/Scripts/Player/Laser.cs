@@ -46,7 +46,7 @@ public class Laser : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            
+
             key.AddKillCount();
             Debug.Log(key.getKillCount());
             SoundManager.Instance.PlayEnemyDeathEffect();
@@ -54,8 +54,14 @@ public class Laser : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             EnemyDeathEvents(collision);
         }
+        else if (!collision.CompareTag("Player"))
+        {
             
-    }
+            rb.velocity = Vector2.zero;
+            tr.Clear();
+            GetComponent<SpriteRenderer>().enabled = false;
+        }
+        }
 
     private void EnemyDeathEvents(Collider2D collision)
     {
