@@ -10,10 +10,15 @@ public class ProfessorScene : MonoBehaviour
     private Image black;
 
     [SerializeField]
+    private Image white;
+
+    [SerializeField]
     private GameObject AnnaText;
 
     [SerializeField]
     private GameObject ProfessorText;
+
+    bool whitePass = false;
 
     private void Start()
     {
@@ -22,6 +27,11 @@ public class ProfessorScene : MonoBehaviour
     private void FixedUpdate()
     {
         black.color -= new Color(0, 0, 0, .01f);
+
+        if (whitePass)
+        {
+            white.color += new Color(0, 0, 0, .1f);
+        }
     }
 
     private IEnumerator PlayTexts()
@@ -30,6 +40,15 @@ public class ProfessorScene : MonoBehaviour
         AnnaText.SetActive(true);
         yield return new WaitForSeconds(50);
         ProfessorText.SetActive(true);
+        yield return new WaitForSeconds(20);
+        whitePass = true;
+        SoundManager.Instance.PlayExplosionEffect();
+        yield return new WaitForSeconds(.5f);
+        SoundManager.Instance.PlayExplosionEffect();
+        yield return new WaitForSeconds(.5f);
+        SoundManager.Instance.PlayExplosionEffect();
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
   
