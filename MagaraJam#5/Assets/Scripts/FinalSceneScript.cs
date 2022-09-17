@@ -30,6 +30,9 @@ public class FinalSceneScript : MonoBehaviour
     [SerializeField]
     private GameObject Credits;
 
+    [SerializeField]
+    private GameObject redText;
+
     private Animator anim;
 
     private bool cameraMove = true;
@@ -63,10 +66,13 @@ public class FinalSceneScript : MonoBehaviour
         text2.SetActive(true);
         audioSource.Stop();
         sadMusic.Stop();
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(5);
+        redText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(2);
         white.SetActive(true);
         SoundManager.Instance.PlayLaserShootEffect();
         yield return new WaitForSeconds(.3f);
+        redText.gameObject.SetActive(false);
         white.SetActive(false);
         anim.SetTrigger("dead");
         yield return new WaitForSeconds(3);
