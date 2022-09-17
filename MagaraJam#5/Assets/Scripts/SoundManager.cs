@@ -35,32 +35,32 @@ public class SoundManager : MonoBehaviour
 
     public void playWordEffect()
     {
-        audioSource.PlayOneShot(wordEffect);
+        audioSource.PlayOneShot(wordEffect,0.05f);
     }
 
     public void playFallDownEffect()
     {
-        audioSource.PlayOneShot(fallEffect);
+        audioSource.PlayOneShot(fallEffect, 0.15f);
     }
 
     public void playGlassBreak()
     {
-        audioSource.PlayOneShot(glassBreakEffect);
+        audioSource.PlayOneShot(glassBreakEffect, 0.05f);
     }
 
     public void playCardPick()
     {
-        audioSource.PlayOneShot(cardPickEffect);
+        audioSource.PlayOneShot(cardPickEffect,0.1f);
     }
 
     public void PlayDoorOpen()
     {
-        audioSource.PlayOneShot(doorOpenEffect);
+        audioSource.PlayOneShot(doorOpenEffect,0.1f);
     }
 
     public void PlayLaserShootEffect()
     {
-        audioSource.PlayOneShot(laserShotEffect);
+        audioSource.PlayOneShot(laserShotEffect,0.1f);
     }
 }
 
