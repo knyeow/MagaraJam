@@ -21,6 +21,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip doorOpenEffect;
 
+    [SerializeField]
+    private AudioClip laserShotEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -53,6 +56,11 @@ public class SoundManager : MonoBehaviour
     public void PlayDoorOpen()
     {
         audioSource.PlayOneShot(doorOpenEffect);
+    }
+
+    public void PlayLaserShootEffect()
+    {
+        audioSource.PlayOneShot(laserShotEffect);
     }
 }
 

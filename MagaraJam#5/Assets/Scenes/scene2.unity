@@ -2714,6 +2714,7 @@ MonoBehaviour:
   glassBreakEffect: {fileID: 8300000, guid: 2a4777b550a95fe409d72e7fd30e38c2, type: 3}
   cardPickEffect: {fileID: 0}
   doorOpenEffect: {fileID: 0}
+  laserShotEffect: {fileID: 8300000, guid: 87b951450b1b13a43b5b186dff566e26, type: 3}
 --- !u!4 &293231020
 Transform:
   m_ObjectHideFlags: 0
@@ -4519,8 +4520,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserPower: 200
   laserPoint: {fileID: 1222596910}
-  tr: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!50 &543755153
 Rigidbody2D:
   serializedVersion: 4

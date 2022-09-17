@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class scene4Dialogue : MonoBehaviour
 {
     [SerializeField]
@@ -21,6 +21,7 @@ public class scene4Dialogue : MonoBehaviour
     {
         textMesh = this.GetComponent<TextMeshPro>();
         StartCoroutine(writeText());
+        Invoke("DigerSahne", 48);
     }
 
     private IEnumerator writeText()
@@ -40,5 +41,10 @@ public class scene4Dialogue : MonoBehaviour
             //yield return new WaitForSeconds(timeBeforeTexts);
         }
 
+    }
+
+    void DigerSahne()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

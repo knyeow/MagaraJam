@@ -750,6 +750,7 @@ MonoBehaviour:
   glassBreakEffect: {fileID: 8300000, guid: 2a4777b550a95fe409d72e7fd30e38c2, type: 3}
   cardPickEffect: {fileID: 8300000, guid: 8667bcb16729925478ffec89c265896c, type: 3}
   doorOpenEffect: {fileID: 8300000, guid: bf046b2f4ae334a479e0194dc96a11ec, type: 3}
+  laserShotEffect: {fileID: 8300000, guid: 87b951450b1b13a43b5b186dff566e26, type: 3}
 --- !u!4 &66761639
 Transform:
   m_ObjectHideFlags: 0
