@@ -3436,7 +3436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 1341350587}
   flashTimeDuration: 0.3
-  StartSceneAgainTime: 4
+  StartSceneAgainTime: 2
   sr: {fileID: 758292134}
 --- !u!1 &760161648
 GameObject:
