@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering.Universal;
 public class Projectile : MonoBehaviour
 {
 
     [SerializeField] private float bulletSpeed;
     [SerializeField] private Animator anim;
     [SerializeField] private ParticleSystem ps;
+   
 
     private float direction;
 
@@ -36,17 +37,10 @@ public class Projectile : MonoBehaviour
         if (collision.CompareTag("Player")) {
 
             Debug.Log("Playera vurdu");
-
-            if (!Variables.IsPlayerDead)
-            {
-                anim.SetTrigger("Death");
-                ps.Play();
-            }
-
             Variables.IsPlayerDead = true;
-
-            
-                }
+            Variables.moveable = false;
+            ps.Play();
+        }
     }
 
     public void setDirection(float  _direction)

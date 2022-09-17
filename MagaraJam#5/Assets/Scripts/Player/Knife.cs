@@ -25,7 +25,7 @@ public class Knife : MonoBehaviour
             SoundManager.Instance.PlayEnemyDeathEffect(); 
             EnemyDeathEvents(collision);
         }
-        Debug.Log(collision.gameObject.tag);
+        
 
     }
 

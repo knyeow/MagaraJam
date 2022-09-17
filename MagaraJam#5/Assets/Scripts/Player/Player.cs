@@ -51,15 +51,23 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space)&&IsGrounded() && Variables.moveable)
             Jump();
 
+        
         anim.SetBool("onAir", !IsGrounded());
 
-      
+        if (Variables.IsPlayerDead)
+        {
+            rb.gravityScale = 0;
+            rb.velocity = Vector2.zero;
+            anim.SetBool("Death", true);
+
+        }
+        Debug.Log(IsGrounded());
     }
 
 
     private bool IsGrounded()
     {
-        if (Physics2D.BoxCast((footPos.position), new Vector2(bc.bounds.size.x, 0.1f), 0, Vector2.down, 0.2f, groundLayer))
+        if (Physics2D.BoxCast((footPos.position), new Vector2(bc.bounds.size.x, 0.1f), 0, Vector2.down, 0.2f, groundLayer) || Variables.IsPlayerDead)
             return true;
         else
             return false;

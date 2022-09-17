@@ -320,6 +320,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382075657457
 Rigidbody2D:
   serializedVersion: 4
@@ -578,6 +579,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382080719976
 Rigidbody2D:
   serializedVersion: 4
@@ -836,6 +838,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382088742243
 Rigidbody2D:
   serializedVersion: 4
@@ -1094,6 +1097,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382164181047
 Rigidbody2D:
   serializedVersion: 4
@@ -1352,6 +1356,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382175347518
 Rigidbody2D:
   serializedVersion: 4
@@ -1610,6 +1615,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382234127324
 Rigidbody2D:
   serializedVersion: 4
@@ -1868,6 +1874,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382316515475
 Rigidbody2D:
   serializedVersion: 4
@@ -2126,6 +2133,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382379722348
 Rigidbody2D:
   serializedVersion: 4
@@ -2468,6 +2476,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382409637012
 Rigidbody2D:
   serializedVersion: 4
@@ -2726,6 +2735,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382418954916
 Rigidbody2D:
   serializedVersion: 4
@@ -2984,6 +2994,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382448703532
 Rigidbody2D:
   serializedVersion: 4
@@ -3242,6 +3253,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382460316110
 Rigidbody2D:
   serializedVersion: 4
@@ -3584,6 +3596,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382507483195
 Rigidbody2D:
   serializedVersion: 4
@@ -3842,6 +3855,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382509058222
 Rigidbody2D:
   serializedVersion: 4
@@ -4100,6 +4114,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382562662494
 Rigidbody2D:
   serializedVersion: 4
@@ -4358,6 +4373,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382677328237
 Rigidbody2D:
   serializedVersion: 4
@@ -4616,6 +4632,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382733360951
 Rigidbody2D:
   serializedVersion: 4
@@ -4874,6 +4891,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382895901769
 Rigidbody2D:
   serializedVersion: 4
@@ -5132,6 +5150,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382912913792
 Rigidbody2D:
   serializedVersion: 4
@@ -5390,6 +5409,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382920234849
 Rigidbody2D:
   serializedVersion: 4
@@ -5648,6 +5668,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382923795976
 Rigidbody2D:
   serializedVersion: 4
@@ -5906,6 +5927,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489382941049026
 Rigidbody2D:
   serializedVersion: 4
@@ -6164,6 +6186,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383028248903
 Rigidbody2D:
   serializedVersion: 4
@@ -6422,6 +6445,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383037251504
 Rigidbody2D:
   serializedVersion: 4
@@ -6767,6 +6791,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383059591307
 Rigidbody2D:
   serializedVersion: 4
@@ -7025,6 +7050,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383062768107
 Rigidbody2D:
   serializedVersion: 4
@@ -7283,6 +7309,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383063401706
 Rigidbody2D:
   serializedVersion: 4
@@ -7541,6 +7568,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383065643139
 Rigidbody2D:
   serializedVersion: 4
@@ -7799,6 +7827,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383090624109
 Rigidbody2D:
   serializedVersion: 4
@@ -8057,6 +8086,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383097405553
 Rigidbody2D:
   serializedVersion: 4
@@ -8315,6 +8345,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383110445469
 Rigidbody2D:
   serializedVersion: 4
@@ -8573,6 +8604,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383119514131
 Rigidbody2D:
   serializedVersion: 4
@@ -8831,6 +8863,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383189791316
 Rigidbody2D:
   serializedVersion: 4
@@ -9089,6 +9122,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383227961271
 Rigidbody2D:
   serializedVersion: 4
@@ -9383,6 +9417,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383340418382
 Rigidbody2D:
   serializedVersion: 4
@@ -9641,6 +9676,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383427087504
 Rigidbody2D:
   serializedVersion: 4
@@ -9899,6 +9935,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383496686308
 Rigidbody2D:
   serializedVersion: 4
@@ -10157,6 +10194,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383505799783
 Rigidbody2D:
   serializedVersion: 4
@@ -10415,6 +10453,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383587203870
 Rigidbody2D:
   serializedVersion: 4
@@ -10841,6 +10880,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383668745414
 Rigidbody2D:
   serializedVersion: 4
@@ -11099,6 +11139,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383714491067
 Rigidbody2D:
   serializedVersion: 4
@@ -11388,6 +11429,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383859353082
 Rigidbody2D:
   serializedVersion: 4
@@ -11646,6 +11688,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383859852384
 Rigidbody2D:
   serializedVersion: 4
@@ -11904,6 +11947,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383863385968
 Rigidbody2D:
   serializedVersion: 4
@@ -12162,6 +12206,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383903311917
 Rigidbody2D:
   serializedVersion: 4
@@ -12420,6 +12465,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383937865837
 Rigidbody2D:
   serializedVersion: 4
@@ -12678,6 +12724,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383950409745
 Rigidbody2D:
   serializedVersion: 4
@@ -12936,6 +12983,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489383961795217
 Rigidbody2D:
   serializedVersion: 4
@@ -13377,6 +13425,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384016470652
 Rigidbody2D:
   serializedVersion: 4
@@ -13635,6 +13684,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384023232174
 Rigidbody2D:
   serializedVersion: 4
@@ -13893,6 +13943,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384023801923
 Rigidbody2D:
   serializedVersion: 4
@@ -14151,6 +14202,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384065351616
 Rigidbody2D:
   serializedVersion: 4
@@ -14409,6 +14461,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384073633223
 Rigidbody2D:
   serializedVersion: 4
@@ -14667,6 +14720,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384083154205
 Rigidbody2D:
   serializedVersion: 4
@@ -14925,6 +14979,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384125279216
 Rigidbody2D:
   serializedVersion: 4
@@ -15183,6 +15238,7 @@ MonoBehaviour:
   bulletSpeed: 500
   anim: {fileID: 0}
   ps: {fileID: 0}
+  _light: {fileID: 0}
 --- !u!50 &7009489384158453560
 Rigidbody2D:
   serializedVersion: 4
