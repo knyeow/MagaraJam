@@ -19,11 +19,11 @@ public class Knife : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
-        {
-            key.AddKillCount();
-            Debug.Log(key.getKillCount());
-            SoundManager.Instance.PlayEnemyDeathEffect(); 
-            EnemyDeathEvents(collision);
+        {   
+                key.AddKillCount();
+                Debug.Log(key.getKillCount());
+                SoundManager.Instance.PlayEnemyDeathEffect();
+                EnemyDeathEvents(collision); 
         }
         
 

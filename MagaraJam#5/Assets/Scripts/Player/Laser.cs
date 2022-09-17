@@ -27,7 +27,7 @@ public class Laser : MonoBehaviour
    
     public void setDirection(Vector2 direction)
     {
-        if (lifeTimeTimer > 2.0)
+        if (lifeTimeTimer > 5.0)
         {
             GetComponent<SpriteRenderer>().enabled = true;
             gameObject.SetActive(true);
