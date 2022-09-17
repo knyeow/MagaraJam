@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
 
     [SerializeField] private float bulletSpeed;
     [SerializeField] private Animator anim;
-    [SerializeField] private ParticleSystem ps;
+    
    
 
     private float direction;
@@ -39,7 +39,7 @@ public class Projectile : MonoBehaviour
             Debug.Log("Playera vurdu");
             Variables.IsPlayerDead = true;
             Variables.moveable = false;
-            ps.Play();
+            
         }
     }
 
