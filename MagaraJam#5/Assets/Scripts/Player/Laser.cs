@@ -21,24 +21,18 @@ public class Laser : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
-        if (lifeTimeTimer > 2.0)
-        {
-            
-            tr.enabled = false;
-            tr.Clear();
-            transform.position = laserPoint.position;
-        }
-
-
+    { 
         lifeTimeTimer += Time.deltaTime;
-
     }
    
     public void setDirection(Vector2 direction)
     {
         if (lifeTimeTimer > 2.0)
         {
+            GetComponent<SpriteRenderer>().enabled = true;
+            gameObject.SetActive(true);
+            transform.position = laserPoint.position;
+            tr.Clear();
             SoundManager.Instance.PlayLaserShootEffect();
             laserBar.SetActive(false);
             lifeTimeTimer = 0;
@@ -57,7 +51,7 @@ public class Laser : MonoBehaviour
             Debug.Log(key.getKillCount());
             SoundManager.Instance.PlayEnemyDeathEffect();
             rb.velocity = Vector2.zero;
-            transform.position = laserPoint.position;
+            GetComponent<SpriteRenderer>().enabled = false;
             EnemyDeathEvents(collision);
         }
             
