@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float playerDistance;
     [SerializeField] private LayerMask playerLayer;
 
+    [SerializeField] private float returnTime;
+
     private float shootTimer;
     private float scaleTimer;
 
@@ -38,7 +40,7 @@ public class Enemy : MonoBehaviour
         shootTimer += Time.deltaTime;
         scaleTimer += Time.deltaTime;
 
-        if (!IsPlayerNear()&&scaleTimer >3)
+        if (!IsPlayerNear()&&scaleTimer >returnTime)
         {
             scaleTimer = 0;
            transform.localScale = new Vector2(-transform.localScale.x,transform.localScale.y);

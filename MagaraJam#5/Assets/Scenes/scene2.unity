@@ -11144,7 +11144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texts:
-  - Troy'u oldur!
+  - Troy'u ve kizini oldur!
   timeBeforeWord: 0.1
   timeBeforeTexts: 2
   startDuration: 3
