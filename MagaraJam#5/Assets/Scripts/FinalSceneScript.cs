@@ -22,11 +22,19 @@ public class FinalSceneScript : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField]
+    private AudioSource sadMusic;
+
+    [SerializeField]
     private GameObject white;
+
+    [SerializeField]
+    private GameObject Credits;
 
     private Animator anim;
 
     private bool cameraMove = true;
+
+    private bool creditPass = false;
     private void Start()
     {
         anim = GameObject.Find("Anna").GetComponent<Animator>();
@@ -40,6 +48,11 @@ public class FinalSceneScript : MonoBehaviour
         { 
             cam.transform.position = Vector3.MoveTowards(cam.transform.position, new Vector3(camDestination.position.x, cam.transform.position.y, cam.transform.position.z), 1.5f * Time.fixedDeltaTime);
         }
+
+        if (creditPass)
+        {
+            Credits.transform.position += new Vector3(0, 1, 0);
+        }
     }
 
     private IEnumerator StartCutscene()
@@ -49,12 +62,19 @@ public class FinalSceneScript : MonoBehaviour
         yield return new WaitForSeconds(45);
         text2.SetActive(true);
         audioSource.Stop();
+        sadMusic.Stop();
         yield return new WaitForSeconds(7);
         white.SetActive(true);
         SoundManager.Instance.PlayLaserShootEffect();
         yield return new WaitForSeconds(.3f);
         white.SetActive(false);
         anim.SetTrigger("dead");
+        yield return new WaitForSeconds(3);
+        Credits.SetActive(true);
+        yield return new WaitForSeconds(3);
+        creditPass = true;
+        sadMusic.Play();
+        audioSource.Play();
     }
 
 }
