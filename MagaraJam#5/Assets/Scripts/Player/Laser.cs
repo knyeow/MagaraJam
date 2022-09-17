@@ -6,6 +6,7 @@ public class Laser : MonoBehaviour
 {
     [SerializeField] private float laserPower;
     [SerializeField] private Transform laserPoint;
+    [SerializeField] private GameObject laserBar;
     private TrailRenderer tr;
     
     private Rigidbody2D rb;
@@ -18,10 +19,11 @@ public class Laser : MonoBehaviour
         tr = GetComponent<TrailRenderer>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (lifeTimeTimer > 2.0)
         {
+            
             tr.enabled = false;
             tr.Clear();
             transform.position = laserPoint.position;
@@ -36,10 +38,11 @@ public class Laser : MonoBehaviour
     {
         if (lifeTimeTimer > 2.0)
         { 
+            laserBar.SetActive(false);
             lifeTimeTimer = 0;
             tr.enabled = true;
             rb.velocity = direction * laserPower * Time.fixedDeltaTime;
-            
+            laserBar.SetActive(true);
         }
     }
 

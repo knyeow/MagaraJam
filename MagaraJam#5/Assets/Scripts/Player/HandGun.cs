@@ -10,6 +10,7 @@ public class HandGun : MonoBehaviour
 
     [SerializeField] private GameObject laser;
     [SerializeField] private Transform laserPoint;
+    
 
     [SerializeField]private Transform parentTransform;
     void Start()
@@ -40,8 +41,11 @@ public class HandGun : MonoBehaviour
 
 
 
-        if (Input.GetMouseButton(0)&& Variables.moveable)
+        if (Input.GetMouseButton(0) && Variables.moveable)
+        {
             laser.GetComponent<Laser>().setDirection(new Vector2(rotation.x, rotation.y));
+            
+        }
 
         
     }
