@@ -2126,7 +2126,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &162767732
 GameObject:
@@ -3182,7 +3182,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &851130616
 GameObject:
@@ -3395,6 +3395,7 @@ MonoBehaviour:
   enemyDeathEffect: {fileID: 0}
   enemyShotEffect: {fileID: 0}
   alertEffect: {fileID: 8300000, guid: d8f1224ff791fda4f96eeab539358195, type: 3}
+  explosionEffect: {fileID: 0}
 --- !u!4 &982994133
 Transform:
   m_ObjectHideFlags: 0
