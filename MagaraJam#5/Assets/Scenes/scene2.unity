@@ -26232,9 +26232,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989595074}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15070009, y: -0.204, z: -0.1513637}
-  m_LocalScale: {x: 0.0054009077, y: 0.03323494, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1431, y: -0.189, z: -0.1513637}
+  m_LocalScale: {x: 0.01948296, y: 0.02495213, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2129441470}
@@ -26888,7 +26888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laser: {fileID: 543755149}
   laserPoint: {fileID: 1222596910}
-  laserBar: {fileID: 1989595074}
   parentTransform: {fileID: 2129441470}
 --- !u!1 &2111291070
 GameObject:
