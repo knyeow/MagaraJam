@@ -308,7 +308,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 87b951450b1b13a43b5b186dff566e26, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -413,6 +413,8 @@ MonoBehaviour:
   laserShotEffect: {fileID: 8300000, guid: 87b951450b1b13a43b5b186dff566e26, type: 3}
   enemyDeathEffect: {fileID: 0}
   enemyShotEffect: {fileID: 0}
+  alertEffect: {fileID: 0}
+  explosionEffect: {fileID: 0}
 --- !u!4 &865063610
 Transform:
   m_ObjectHideFlags: 0

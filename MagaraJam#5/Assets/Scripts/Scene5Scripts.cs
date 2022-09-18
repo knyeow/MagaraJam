@@ -19,10 +19,10 @@ public class Scene5Scripts : MonoBehaviour
     private IEnumerator FlashEffect()
     {
         //yield return new WaitForSeconds(1);
-        image.color += new Color(0, 0, 0, 255);
+        //image.color += new Color(0, 0, 0, 255);
         //SoundManager.Instance.PlayLaserShootEffect();
-        yield return new WaitForSeconds(.1f);
-        image.color -= new Color(0, 0, 0, 255);
+        //yield return new WaitForSeconds(.1f);
+        //image.color -= new Color(0, 0, 0, 255);
         yield return new WaitForSeconds(2);
         text.SetActive(true);
         yield return new WaitForSeconds(17);

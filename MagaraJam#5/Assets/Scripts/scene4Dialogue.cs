@@ -17,11 +17,19 @@ public class scene4Dialogue : MonoBehaviour
     [SerializeField]
     private float timeBeforeTexts;
 
+    [SerializeField]
+    private GameObject black;
+
+    [SerializeField]
+    private GameObject kizKactiText;
+
     private void Start()
     {
         textMesh = this.GetComponent<TextMeshPro>();
         StartCoroutine(writeText());
-        Invoke("DigerSahne", 48);
+        Invoke("KillTroy", 48);
+        Invoke("PlayText", 51);
+        Invoke("NextScene", 57);
     }
 
     private IEnumerator writeText()
@@ -43,8 +51,20 @@ public class scene4Dialogue : MonoBehaviour
 
     }
 
-    void DigerSahne()
+    void KillTroy()
+    {
+        black.SetActive(true);
+        SoundManager.Instance.PlayLaserShootEffect();
+    }
+
+    void PlayText()
+    {
+        kizKactiText.SetActive(true);
+    }
+
+    void NextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
 }

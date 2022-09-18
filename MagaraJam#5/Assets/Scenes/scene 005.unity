@@ -780,7 +780,6 @@ GameObject:
   m_Component:
   - component: {fileID: 77481047}
   - component: {fileID: 77481046}
-  - component: {fileID: 77481045}
   m_Layer: 0
   m_Name: Exitdoor
   m_TagString: Untagged
@@ -788,20 +787,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &77481045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77481044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 361f5de901ddc8743b51dd44bf2cd51c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.01
-  parallaxEffectMultiplierY: 0
 --- !u!212 &77481046
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -862,7 +847,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77481044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.07, y: -1.01, z: 0}
+  m_LocalPosition: {x: 25.07, y: -1.01, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3777,8 +3762,6 @@ GameObject:
   m_Component:
   - component: {fileID: 888457353}
   - component: {fileID: 888457352}
-  - component: {fileID: 888457354}
-  - component: {fileID: 888457355}
   - component: {fileID: 888457358}
   - component: {fileID: 888457356}
   - component: {fileID: 888457357}
@@ -3856,34 +3839,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &888457354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888457351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 361f5de901ddc8743b51dd44bf2cd51c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.01
-  parallaxEffectMultiplierY: 0
---- !u!114 &888457355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888457351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddbb20c319724c94baea28f73ef347cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  killToOpenDoor: 3
-  key: {fileID: 1846183965}
 --- !u!61 &888457356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60074,7 +60029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1846183961
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60211,7 +60166,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1883646403}
   - component: {fileID: 1883646402}
+  - component: {fileID: 1883646405}
   - component: {fileID: 1883646404}
+  - component: {fileID: 1883646406}
   m_Layer: 0
   m_Name: Exitdoor
   m_TagString: Untagged
@@ -60286,7 +60243,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1883646404
+--- !u!61 &1883646404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883646401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2}
+  m_EdgeRadius: 0
+--- !u!114 &1883646405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -60295,11 +60278,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883646401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 361f5de901ddc8743b51dd44bf2cd51c, type: 3}
+  m_Script: {fileID: 11500000, guid: f5b679fcfe6d5b84fbe62391065a055e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffectMultiplier: 0.01
-  parallaxEffectMultiplierY: 0
+  image: {fileID: 1822721557}
+--- !u!114 &1883646406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883646401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b044c59ab5656234da6b2ab6e7a38cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1919434980
 GameObject:
   m_ObjectHideFlags: 0
