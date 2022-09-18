@@ -72,6 +72,7 @@ public class Laser : MonoBehaviour
         collision.GetComponent<Animator>().SetTrigger("Death");
         collision.GetComponent<BoxCollider2D>().enabled = false;
         collision.GetComponent<Rigidbody2D>().gravityScale = 0;
+        collision.GetComponent<Enemy>().enabled = false;
         sr.enabled = true;
         enemy.enabled = false;
         anim.SetTrigger("Splash");
