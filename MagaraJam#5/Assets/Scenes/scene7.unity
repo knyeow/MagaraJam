@@ -1764,6 +1764,7 @@ MonoBehaviour:
   enemyShotEffect: {fileID: 0}
   alertEffect: {fileID: 0}
   explosionEffect: {fileID: 0}
+  playerDeathEffect: {fileID: 0}
 --- !u!4 &1522425124
 Transform:
   m_ObjectHideFlags: 0
