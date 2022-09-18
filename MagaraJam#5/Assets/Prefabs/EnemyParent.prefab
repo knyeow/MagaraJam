@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 7009489382075657463}
   m_Layer: 0
   m_Name: Bullet (55)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -319,8 +319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382075657457
 Rigidbody2D:
   serializedVersion: 4
@@ -492,7 +490,7 @@ GameObject:
   - component: {fileID: 7009489382080719982}
   m_Layer: 0
   m_Name: Bullet (39)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -578,8 +576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382080719976
 Rigidbody2D:
   serializedVersion: 4
@@ -751,7 +747,7 @@ GameObject:
   - component: {fileID: 7009489382088742241}
   m_Layer: 0
   m_Name: Bullet (1)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -837,8 +833,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382088742243
 Rigidbody2D:
   serializedVersion: 4
@@ -1010,7 +1004,7 @@ GameObject:
   - component: {fileID: 7009489382164181045}
   m_Layer: 0
   m_Name: Bullet (31)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1096,8 +1090,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382164181047
 Rigidbody2D:
   serializedVersion: 4
@@ -1269,7 +1261,7 @@ GameObject:
   - component: {fileID: 7009489382175347516}
   m_Layer: 0
   m_Name: Bullet (50)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1355,8 +1347,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382175347518
 Rigidbody2D:
   serializedVersion: 4
@@ -1528,7 +1518,7 @@ GameObject:
   - component: {fileID: 7009489382234127298}
   m_Layer: 0
   m_Name: Bullet (11)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1614,8 +1604,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382234127324
 Rigidbody2D:
   serializedVersion: 4
@@ -1787,7 +1775,7 @@ GameObject:
   - component: {fileID: 7009489382316515473}
   m_Layer: 0
   m_Name: Bullet (38)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1873,8 +1861,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382316515475
 Rigidbody2D:
   serializedVersion: 4
@@ -2046,7 +2032,7 @@ GameObject:
   - component: {fileID: 7009489382379722322}
   m_Layer: 0
   m_Name: Bullet (17)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2132,8 +2118,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382379722348
 Rigidbody2D:
   serializedVersion: 4
@@ -2389,7 +2373,7 @@ GameObject:
   - component: {fileID: 7009489382409637018}
   m_Layer: 0
   m_Name: Bullet (47)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2475,8 +2459,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382409637012
 Rigidbody2D:
   serializedVersion: 4
@@ -2648,7 +2630,7 @@ GameObject:
   - component: {fileID: 7009489382418954922}
   m_Layer: 0
   m_Name: Bullet (21)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2734,8 +2716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382418954916
 Rigidbody2D:
   serializedVersion: 4
@@ -2907,7 +2887,7 @@ GameObject:
   - component: {fileID: 7009489382448703506}
   m_Layer: 0
   m_Name: Bullet (27)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2993,8 +2973,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382448703532
 Rigidbody2D:
   serializedVersion: 4
@@ -3166,7 +3144,7 @@ GameObject:
   - component: {fileID: 7009489382460316108}
   m_Layer: 0
   m_Name: Bullet (5)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3252,8 +3230,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382460316110
 Rigidbody2D:
   serializedVersion: 4
@@ -3509,7 +3485,7 @@ GameObject:
   - component: {fileID: 7009489382507483193}
   m_Layer: 0
   m_Name: Bullet (2)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,8 +3571,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382507483195
 Rigidbody2D:
   serializedVersion: 4
@@ -3768,7 +3742,7 @@ GameObject:
   - component: {fileID: 7009489382509058220}
   m_Layer: 0
   m_Name: Bullet (6)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3854,8 +3828,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382509058222
 Rigidbody2D:
   serializedVersion: 4
@@ -4027,7 +3999,7 @@ GameObject:
   - component: {fileID: 7009489382562662492}
   m_Layer: 0
   m_Name: Bullet (54)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4113,8 +4085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382562662494
 Rigidbody2D:
   serializedVersion: 4
@@ -4286,7 +4256,7 @@ GameObject:
   - component: {fileID: 7009489382677328211}
   m_Layer: 0
   m_Name: Bullet (20)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4372,8 +4342,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382677328237
 Rigidbody2D:
   serializedVersion: 4
@@ -4545,7 +4513,7 @@ GameObject:
   - component: {fileID: 7009489382733360949}
   m_Layer: 0
   m_Name: Bullet (53)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4631,8 +4599,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382733360951
 Rigidbody2D:
   serializedVersion: 4
@@ -4804,7 +4770,7 @@ GameObject:
   - component: {fileID: 7009489382895901775}
   m_Layer: 0
   m_Name: Bullet (41)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4890,8 +4856,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382895901769
 Rigidbody2D:
   serializedVersion: 4
@@ -5063,7 +5027,7 @@ GameObject:
   - component: {fileID: 7009489382912913798}
   m_Layer: 0
   m_Name: Bullet (36)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5149,8 +5113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382912913792
 Rigidbody2D:
   serializedVersion: 4
@@ -5322,7 +5284,7 @@ GameObject:
   - component: {fileID: 7009489382920234855}
   m_Layer: 0
   m_Name: Bullet (4)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5408,8 +5370,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382920234849
 Rigidbody2D:
   serializedVersion: 4
@@ -5581,7 +5541,7 @@ GameObject:
   - component: {fileID: 7009489382923795982}
   m_Layer: 0
   m_Name: Bullet (35)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5667,8 +5627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382923795976
 Rigidbody2D:
   serializedVersion: 4
@@ -5840,7 +5798,7 @@ GameObject:
   - component: {fileID: 7009489382941049024}
   m_Layer: 0
   m_Name: Bullet (34)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5926,8 +5884,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489382941049026
 Rigidbody2D:
   serializedVersion: 4
@@ -6099,7 +6055,7 @@ GameObject:
   - component: {fileID: 7009489383028248901}
   m_Layer: 0
   m_Name: Bullet (25)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6185,8 +6141,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383028248903
 Rigidbody2D:
   serializedVersion: 4
@@ -6358,7 +6312,7 @@ GameObject:
   - component: {fileID: 7009489383037251510}
   m_Layer: 0
   m_Name: Bullet (32)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6444,8 +6398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383037251504
 Rigidbody2D:
   serializedVersion: 4
@@ -6704,7 +6656,7 @@ GameObject:
   - component: {fileID: 7009489383059591305}
   m_Layer: 0
   m_Name: Bullet (16)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6790,8 +6742,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383059591307
 Rigidbody2D:
   serializedVersion: 4
@@ -6963,7 +6913,7 @@ GameObject:
   - component: {fileID: 7009489383062768105}
   m_Layer: 0
   m_Name: Bullet (40)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7049,8 +6999,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383062768107
 Rigidbody2D:
   serializedVersion: 4
@@ -7222,7 +7170,7 @@ GameObject:
   - component: {fileID: 7009489383063401704}
   m_Layer: 0
   m_Name: Bullet (44)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7308,8 +7256,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383063401706
 Rigidbody2D:
   serializedVersion: 4
@@ -7481,7 +7427,7 @@ GameObject:
   - component: {fileID: 7009489383065643137}
   m_Layer: 0
   m_Name: Bullet (12)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7567,8 +7513,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383065643139
 Rigidbody2D:
   serializedVersion: 4
@@ -7740,7 +7684,7 @@ GameObject:
   - component: {fileID: 7009489383090624083}
   m_Layer: 0
   m_Name: Bullet (46)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7826,8 +7770,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383090624109
 Rigidbody2D:
   serializedVersion: 4
@@ -7999,7 +7941,7 @@ GameObject:
   - component: {fileID: 7009489383097405559}
   m_Layer: 0
   m_Name: Bullet (43)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8085,8 +8027,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383097405553
 Rigidbody2D:
   serializedVersion: 4
@@ -8258,7 +8198,7 @@ GameObject:
   - component: {fileID: 7009489383110445443}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8344,8 +8284,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383110445469
 Rigidbody2D:
   serializedVersion: 4
@@ -8517,7 +8455,7 @@ GameObject:
   - component: {fileID: 7009489383119514129}
   m_Layer: 0
   m_Name: Bullet (3)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8603,8 +8541,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383119514131
 Rigidbody2D:
   serializedVersion: 4
@@ -8776,7 +8712,7 @@ GameObject:
   - component: {fileID: 7009489383189791322}
   m_Layer: 0
   m_Name: Bullet (13)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8862,8 +8798,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383189791316
 Rigidbody2D:
   serializedVersion: 4
@@ -9035,7 +8969,7 @@ GameObject:
   - component: {fileID: 7009489383227961269}
   m_Layer: 0
   m_Name: Bullet (7)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9121,8 +9055,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383227961271
 Rigidbody2D:
   serializedVersion: 4
@@ -9330,7 +9262,7 @@ GameObject:
   - component: {fileID: 7009489383340418380}
   m_Layer: 0
   m_Name: Bullet (42)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9416,8 +9348,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383340418382
 Rigidbody2D:
   serializedVersion: 4
@@ -9589,7 +9519,7 @@ GameObject:
   - component: {fileID: 7009489383427087510}
   m_Layer: 0
   m_Name: Bullet (10)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9675,8 +9605,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383427087504
 Rigidbody2D:
   serializedVersion: 4
@@ -9848,7 +9776,7 @@ GameObject:
   - component: {fileID: 7009489383496686314}
   m_Layer: 0
   m_Name: Bullet (22)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9934,8 +9862,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383496686308
 Rigidbody2D:
   serializedVersion: 4
@@ -10107,7 +10033,7 @@ GameObject:
   - component: {fileID: 7009489383505799781}
   m_Layer: 0
   m_Name: Bullet (51)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10193,8 +10119,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383505799783
 Rigidbody2D:
   serializedVersion: 4
@@ -10366,7 +10290,7 @@ GameObject:
   - component: {fileID: 7009489383587203868}
   m_Layer: 0
   m_Name: Bullet (26)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10452,8 +10376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383587203870
 Rigidbody2D:
   serializedVersion: 4
@@ -10793,7 +10715,7 @@ GameObject:
   - component: {fileID: 7009489383668745412}
   m_Layer: 0
   m_Name: Bullet (8)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10879,8 +10801,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383668745414
 Rigidbody2D:
   serializedVersion: 4
@@ -11052,7 +10972,7 @@ GameObject:
   - component: {fileID: 7009489383714491065}
   m_Layer: 0
   m_Name: Bullet (14)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11138,8 +11058,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383714491067
 Rigidbody2D:
   serializedVersion: 4
@@ -11342,7 +11260,7 @@ GameObject:
   - component: {fileID: 7009489383859353080}
   m_Layer: 0
   m_Name: Bullet (28)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11428,8 +11346,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383859353082
 Rigidbody2D:
   serializedVersion: 4
@@ -11601,7 +11517,7 @@ GameObject:
   - component: {fileID: 7009489383859852390}
   m_Layer: 0
   m_Name: Bullet (52)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11687,8 +11603,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383859852384
 Rigidbody2D:
   serializedVersion: 4
@@ -11860,7 +11774,7 @@ GameObject:
   - component: {fileID: 7009489383863385974}
   m_Layer: 0
   m_Name: Bullet (23)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11946,8 +11860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383863385968
 Rigidbody2D:
   serializedVersion: 4
@@ -12119,7 +12031,7 @@ GameObject:
   - component: {fileID: 7009489383903311891}
   m_Layer: 0
   m_Name: Bullet (30)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12205,8 +12117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383903311917
 Rigidbody2D:
   serializedVersion: 4
@@ -12378,7 +12288,7 @@ GameObject:
   - component: {fileID: 7009489383937865811}
   m_Layer: 0
   m_Name: Bullet (37)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12464,8 +12374,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383937865837
 Rigidbody2D:
   serializedVersion: 4
@@ -12637,7 +12545,7 @@ GameObject:
   - component: {fileID: 7009489383950409751}
   m_Layer: 0
   m_Name: Bullet (19)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12723,8 +12631,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383950409745
 Rigidbody2D:
   serializedVersion: 4
@@ -12896,7 +12802,7 @@ GameObject:
   - component: {fileID: 7009489383961795223}
   m_Layer: 0
   m_Name: Bullet (45)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12982,8 +12888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489383961795217
 Rigidbody2D:
   serializedVersion: 4
@@ -13338,7 +13242,7 @@ GameObject:
   - component: {fileID: 7009489384016470626}
   m_Layer: 0
   m_Name: Bullet (48)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13424,8 +13328,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384016470652
 Rigidbody2D:
   serializedVersion: 4
@@ -13597,7 +13499,7 @@ GameObject:
   - component: {fileID: 7009489384023232172}
   m_Layer: 0
   m_Name: Bullet (15)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13683,8 +13585,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384023232174
 Rigidbody2D:
   serializedVersion: 4
@@ -13856,7 +13756,7 @@ GameObject:
   - component: {fileID: 7009489384023801921}
   m_Layer: 0
   m_Name: Bullet (49)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13942,8 +13842,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384023801923
 Rigidbody2D:
   serializedVersion: 4
@@ -14115,7 +14013,7 @@ GameObject:
   - component: {fileID: 7009489384065351622}
   m_Layer: 0
   m_Name: Bullet (18)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14201,8 +14099,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384065351616
 Rigidbody2D:
   serializedVersion: 4
@@ -14374,7 +14270,7 @@ GameObject:
   - component: {fileID: 7009489384073633221}
   m_Layer: 0
   m_Name: Bullet (9)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14460,8 +14356,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384073633223
 Rigidbody2D:
   serializedVersion: 4
@@ -14633,7 +14527,7 @@ GameObject:
   - component: {fileID: 7009489384083154179}
   m_Layer: 0
   m_Name: Bullet (33)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14719,8 +14613,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384083154205
 Rigidbody2D:
   serializedVersion: 4
@@ -14892,7 +14784,7 @@ GameObject:
   - component: {fileID: 7009489384125279222}
   m_Layer: 0
   m_Name: Bullet (29)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14978,8 +14870,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384125279216
 Rigidbody2D:
   serializedVersion: 4
@@ -15151,7 +15041,7 @@ GameObject:
   - component: {fileID: 7009489384158453566}
   m_Layer: 0
   m_Name: Bullet (24)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15237,8 +15127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 500
   anim: {fileID: 0}
-  ps: {fileID: 0}
-  _light: {fileID: 0}
 --- !u!50 &7009489384158453560
 Rigidbody2D:
   serializedVersion: 4

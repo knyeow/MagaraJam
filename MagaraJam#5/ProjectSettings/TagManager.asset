@@ -8,6 +8,7 @@ TagManager:
   - glass
   - laser
   - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX

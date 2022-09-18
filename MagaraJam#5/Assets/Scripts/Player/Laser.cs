@@ -54,7 +54,7 @@ public class Laser : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             EnemyDeathEvents(collision);
         }
-        else if (!collision.CompareTag("Player"))
+        else if (!collision.CompareTag("Player")&& !collision.CompareTag("Bullet"))
         {
             
             rb.velocity = Vector2.zero;
