@@ -36,6 +36,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip explosionEffect;
 
+    [SerializeField]
+    private AudioClip playerDeathEffect;
+
     public static SoundManager Instance;
      
     private void Start()
@@ -92,7 +95,12 @@ public class SoundManager : MonoBehaviour
 
     public void PlayExplosionEffect()
     {
-        audioSource.PlayOneShot(explosionEffect,.5f);
+        audioSource.PlayOneShot(explosionEffect,.1f);
+    }
+
+    public void PlayPlayerDeathEffect()
+    {
+        audioSource.PlayOneShot(playerDeathEffect, .1f);
     }
 }
 

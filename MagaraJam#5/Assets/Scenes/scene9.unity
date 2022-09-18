@@ -259,6 +259,7 @@ MonoBehaviour:
   enemyShotEffect: {fileID: 8300000, guid: daa9cb2e7adad1f4c90dd5423f0613bc, type: 3}
   alertEffect: {fileID: 8300000, guid: d8f1224ff791fda4f96eeab539358195, type: 3}
   explosionEffect: {fileID: 0}
+  playerDeathEffect: {fileID: 8300000, guid: 80e438e08aadc384da08ebf42b4ace55, type: 3}
 --- !u!4 &66761639
 Transform:
   m_ObjectHideFlags: 0

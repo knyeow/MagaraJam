@@ -39,6 +39,7 @@ public class Projectile : MonoBehaviour
             Debug.Log("Playera vurdu");
             Variables.IsPlayerDead = true;
             Variables.moveable = false;
+            SoundManager.Instance.PlayPlayerDeathEffect();
             
         }
     }
